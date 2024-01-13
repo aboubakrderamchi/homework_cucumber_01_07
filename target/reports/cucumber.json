@@ -1,0 +1,312 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1660631500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the codefios login page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_on_the_codefios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7381548200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"username\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718553800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"password\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14773614400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 757972900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to land on dashboard page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-13T15:29:24.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6545259400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should be able to add an account",
+        "description": "",
+        "id": "codefios-page-login-functionality-validation-and-adding-account-validation;user-should-be-able-to-add-an-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1376762800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4495230500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on list account button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_list_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 338168400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to land on list account page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_land_on_list_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 516619100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on add account button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_add_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335632400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to land on the add account form",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_land_on_the_add_account_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 602401900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters account accountName as \"Zoubir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zoubir\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_accountName_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175518600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters account description as \"lorem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lorem\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_description_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187012200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters account initialBalance as \"100.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100.00\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_initialBalance_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 170545100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters account accountNumber as \"5479\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5479\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_accountNumber_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189020000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters account contactPerson as \"Zoubir_contact\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zoubir_contact\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_account_contactPerson_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130653100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be able to click on save button",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_click_on_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1472438600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be able to see the success alert pop-pup",
+            "match": {
+              "location": "steps.StepDefinition.user_should_be_able_to_see_the_success_alert_pop_pup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "User should be able to check if account is successfuly created",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios page login functionality validation and adding account validation",
+    "description": "",
+    "id": "codefios-page-login-functionality-validation-and-adding-account-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/LoginWithDataFromMySqlDatabase.feature",
+    "tags": [
+      {
+        "name": "@AddAccount",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
